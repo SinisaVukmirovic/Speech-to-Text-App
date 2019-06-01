@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    background: #333;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+button {
+    padding: .7rem 1.5rem;
+    margin: auto;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+    button:hover {
+        background: #fff;
+    }
+
+p {
+    font-style: italic;
+    font-size: 1.5rem;
+    color: coral;
+    line-height: 2;
+}
+
+@media screen and (max-width: 900px) {
+    html {
+        font-size: 12px;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    html {
+        font-size: 10px;
+    }
+}
